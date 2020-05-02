@@ -6,7 +6,8 @@ const seriler= require('./seriler.json')
 
 token= ayarlar.token;
 
-seri= seriler.seri;
+kirei= seriler.kirei;
+nani= seriler.nani;
 
 
 client.on('ready', () => {
@@ -16,11 +17,33 @@ client.on('ready', () => {
 
 client.on('message', msg => {
 	
-	//Manga başı
+	//KireiCake
 	 if (msg.content.includes('the unsuccessful yet academically unparalleled')) 
 	 {
-    msg.channel.send(seri);
+    msg.channel.send(kirei);
 	 }
+          
+if (msg.content.includes('Handyman Saitou In Another World')) 
+	 {
+    msg.channel.send(kirei);
+	 }          
+//KireiCake  
+        
+//NaniScan
+	 if (msg.content.includes('The Wolf Won')) 
+	 {
+    msg.channel.send(nani);
+	 }
+          
+if (msg.content.includes('Colorless')) 
+	 {
+    msg.channel.send(nani);
+	 }          
+//NaniScan
+          
+
+          
+          
 
 });
 
