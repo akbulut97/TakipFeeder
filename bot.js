@@ -17,7 +17,7 @@ client.on('ready', () => {
 client.on('message', msg => {
 	
 	//Manga başı
-	 if (msg.content.includes('Almadianos')) 
+	 if (msg.content.includes('the unsuccessful yet academically unparalleled')) 
 	 {
     msg.channel.send(seri);
 	 }
@@ -25,3 +25,4 @@ client.on('message', msg => {
 });
 
 client.login(process.env.token);
+ 
