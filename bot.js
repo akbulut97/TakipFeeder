@@ -18,7 +18,7 @@ client.on('ready', () => {
 client.on('message', msg => {
 	
 	//KireiCake
-	 if (msg.content.includes('The Unsuccessful Yet Academically')) 
+	 if (msg.content.includes(':newspaper:  |  The Unsuccessful Yet')) 
 	 {
     msg.channel.send(kirei);
 	 }
